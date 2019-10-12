@@ -13,5 +13,5 @@ os:
   - linux
 
 script:
-  - gcc StruchNakopitel.c -o nakopitel
+  - gcc StructNakopitel.c -o nakopitel
   - ./nakopitel input.txt out.txt
