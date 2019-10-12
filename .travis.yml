@@ -11,9 +11,7 @@ branches:
     
 os: 
   - linux
-  
+
 script:
-  - mkdir build
-  - cd build
-  - cmake .. -DCMAKE_BUILD_TYPE=$BUILD_CONFIGURATION -DTARGET_CPU=$TARGET_CPU
-  - cmake --build
+  - gcc StruchNakopitel.c -o nakopitel
+  - ./nakopitel input.txt out.txt
