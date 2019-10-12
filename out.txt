@@ -1,0 +1,6 @@
+Capacity (byte) 144 Type CD
+ Overwritten Yes Inventory Number 12 
+Capacity (byte) 256 Type DVD
+ Overwritten Yes Inventory Number 1 
+Capacity (byte) 1024 Type Flash drive
+ Overwritten Yes Inventory Number 2 
