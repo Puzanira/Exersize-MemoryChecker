@@ -1,0 +1,17 @@
+dist: trusty
+sudo: required
+
+language: c
+compiler: 
+  - gcc
+
+branches:
+  only:
+    - dev
+    
+os: 
+  - linux
+
+script:
+  - gcc StructNakopitel.c -o nakopitel
+  - ./nakopitel input.txt out.txt
